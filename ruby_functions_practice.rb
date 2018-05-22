@@ -34,10 +34,10 @@ def number_to_full_month_name(month_no)
 
   if month_no == 1
     return "January"
-elsif month_no == 3
-  return "March"
-elsif month_no == 9
-  return "September"
+  elsif month_no == 3
+    return "March"
+  elsif month_no == 9
+    return "September"
   end
 end
 
@@ -49,4 +49,8 @@ def number_to_short_month_name(month_no)
   elsif month_no == 10
     return "Oct"
   end
+end
+
+def volume_of_cube(argument)
+  return argument ** 3
 end
