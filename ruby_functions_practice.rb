@@ -18,6 +18,6 @@ def divide(no_1, no_2)
   return no_1 / no_2
 end
 
-# def length_of_string(string)
-#   return string.length
-# end
+def length_of_string(string)
+  return string.length
+end
