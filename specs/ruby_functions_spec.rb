@@ -83,16 +83,19 @@ class Functions_Practice < MiniTest::Test
     volume = volume_of_cube(5)
     assert_equal(125, volume)
   end
-
+#
 #   #Given the radius of a sphere calculate the volume
-#   def test_volume_of_sphere()
+  def test_volume_of_sphere()
+    volume = volume_of_sphere(10.0)
+    assert_equal(4188.79, volume)
+  end
 #     #add test code here
 #   end
-#
+# #
 #   #Given a value in farenheit, convert this into celsius.
 #   def test_fahrenheit_to_celsius()
 #     #add test code here
 #   end
-#
-#
+# #
+# #
 end
